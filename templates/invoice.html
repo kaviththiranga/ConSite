@@ -1,0 +1,309 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>ARDINVO - AR Invoice</title>
+	<meta name="generator" content="LibreOffice 4.2.6.3 (Linux)">
+	<meta name="author" content="Crystal Reports">
+	<meta name="created" content="20140724;162400000000000">
+	<meta name="changed" content="20140724;162400000000000">
+	<meta name="description" content="Powered By Crystal">
+	<meta name="Company" content="Crystal Decisions">
+	<meta name="Operator" content="Janath Sivayoganathan">
+	<style type="text/css">
+	<!--
+		@page { margin-left: 0.73in; margin-right: 0.35in; margin-top: 0.2in; margin-bottom: 0.2in }
+		p { margin-bottom: 0.1in; line-height: 120% }
+	-->
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<div id="TextSection" dir="ltr">
+	<p align="left" style="margin-bottom: 0in; line-height: 100%; widows: 0; orphans: 0">
+	<br>
+	</p>
+</div>
+<div id="Section1" dir="ltr">
+	<p align="left" style="margin-bottom: 0in; line-height: 100%; widows: 0; orphans: 0">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAAVCAYAAAAghqeTAAAACXBIWXMAAAzrAAANIAHMGiBgAAAAtElEQVR4nO3UIQoCURiF0Tf6uhgEERdgEPcg2MVNGdyQWxDcgUlERAxGkRnGEbPhjzPhnHTjTV/+7Hfb+nzYJAD+DSfXXF+O697pOCuqqu07AJ3TLFb3/BtFVaaiLNv+A9A9RX7ltj8AdJ1QAgSEEiAglAABoQQICCVAQCgBAkIJEBBKgIBQAgSEEiAglAABoQQICCVAQCgBAkIJEBBKgEBOg/GtmS+fTeq/2z4D0DXNaPr4AqHsHJhf0/WrAAAAAElFTkSuQmCC" align="left"><br>
+	</p>
+	<p align="left" style="margin-bottom: 0in; line-height: 100%; widows: 0; orphans: 0">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAAVCAYAAAAghqeTAAAACXBIWXMAAAzrAAANOwFlLOv6AAAAsElEQVR4nO3UMQ4BURiF0XnyIpIpNFiDBdiH2JQt2JGwBQWNiCgkGtHMPFEr/vJNcU51y1t9uT/utt15v2kA+Ncurrm7HNaj12mZUql9B2BwSju9599IqW9S09f+AzA8efzOtT8ADJ1QAgSEEiAglAABoQQICCVAQCgBAkIJEBBKgIBQAgSEEiAglAABoQQICCVAQCgBAkIJEBBKgEBu2vmtTFbPkvOn9hmAoSmT2eMLcM8ZTIKkNNMAAAAASUVORK5CYII=" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABXCAYAAADFwi9jAAAACXBIWXMAABOIAAAM/gHNlTMVAAAAGklEQVR4nGP59/WdBMvfm7sSWBiAYJQY/AQAHTQHRoTEtAEAAAAASUVORK5CYII=" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABXCAYAAADFwi9jAAAACXBIWXMAABOIAAAM/gHNlTMVAAAAGklEQVR4nGP59/WdBMvfm7sSWBiAYJQY/AQAHTQHRoTEtAEAAAAASUVORK5CYII=" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABACAYAAADbER1AAAAACXBIWXMAABOIAAAM4QEAzz2LAAAAGklEQVR4nGN5/vy5BMuCBQsSWBiAYJQgkQAA3hAGDpKrrucAAAAASUVORK5CYII=" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAABCAYAAACVFp+NAAAACXBIWXMAAAzmAAATiAEA4oslAAAAGElEQVR4nGP58OED/65du9wYRsEoGOIAAOMqBVjITN20AAAAAElFTkSuQmCC" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAABCAYAAACVFp+NAAAACXBIWXMAAAzmAAATiAEA4oslAAAAGElEQVR4nGP58OED/65du9wYRsEoGOIAAOMqBVjITN20AAAAAElFTkSuQmCC" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAABCAYAAACVFp+NAAAACXBIWXMAAAzmAAATiAEA4oslAAAAGElEQVR4nGP58OED/65du9wYRsEoGOIAAOMqBVjITN20AAAAAElFTkSuQmCC" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAABCAYAAACVFp+NAAAACXBIWXMAAAzmAAATiAEA4oslAAAAGElEQVR4nGP58OED/65du9wYRsEoGOIAAOMqBVjITN20AAAAAElFTkSuQmCC" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAABCAYAAACVFp+NAAAACXBIWXMAAAzmAAATiAEA4oslAAAAGElEQVR4nGP58OED/65du9wYRsEoGOIAAOMqBVjITN20AAAAAElFTkSuQmCC" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAABCAYAAACVFp+NAAAACXBIWXMAAAzmAAATiAEA4oslAAAAGElEQVR4nGP58OED/65du9wYRsEoGOIAAOMqBVjITN20AAAAAElFTkSuQmCC" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABACAYAAADbER1AAAAACXBIWXMAABOIAAAM4QEAzz2LAAAAGklEQVR4nGN5/vy5BMuCBQsSWBiAYJQgkQAA3hAGDpKrrucAAAAASUVORK5CYII=" align="left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABACAYAAADbER1AAAAACXBIWXMAABOIAAAM4QEAzz2LAAAAGklEQVR4nGN5/vy5BMuCBQsSWBiAYJQgkQAA3hAGDpKrrucAAAAASUVORK5CYII=" align="left"><span id="Frame1" dir="ltr" style="position: absolute; top: 1.87in; left: 4.82in; width: 0.83in; height: 0.15in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Date
+		   </b></span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame2" dir="ltr" style="position: absolute; top: 1.87in; left: 5.98in; width: 1.98in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">June
+		24, 2014</span></font></font></font></p>
+	</span>
+	<span id="Frame3" dir="ltr" style="position: absolute; top: 1.13in; left: 0.82in; width: 3.86in; height: 0.64in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">787
+		Castro Street,</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Mountain
+		View, CA 94041</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">United
+		States</span></font></font></font></p>
+	</span>
+	<span id="Frame4" dir="ltr" style="position: absolute; top: 1.78in; left: 1.65in; width: 3in; height: 0.15in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">408
+		754 7388</span></font></font></font></p>
+	</span>
+	<span id="Frame5" dir="ltr" style="position: absolute; top: 1.78in; left: 0.82in; width: 0.75in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Telephone
+		:</span></font></font></font></p>
+	</span>
+	<span id="Frame6" dir="ltr" style="position: absolute; top: 1.95in; left: 1.65in; width: 3in; height: 0.15in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">408
+		689 4328</span></font></font></font></p>
+	</span>
+	<span id="Frame7" dir="ltr" style="position: absolute; top: 1.95in; left: 0.82in; width: 0.73in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Fax
+		           :</span></font></font></font></p>
+	</span>
+	<span id="Frame8" dir="ltr" style="position: absolute; top: 2.12in; left: 1.65in; width: 3in; height: 0.15in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">billing@wso2.com</span></font></font></font></p>
+	</span>
+	<span id="Frame9" dir="ltr" style="position: absolute; top: 2.12in; left: 0.82in; width: 0.75in; height: 0.2in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Email
+		        :</span></font></font></font></p>
+	</span>
+	<span id="Frame10" dir="ltr" style="position: absolute; top: 2.62in; left: 0.82in; width: 3.02in; height: 0.77in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">ABC,
+		Inc</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">20
+		El Camino Real</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Palo
+		Alto</span></font></font></font></p>
+	</span>
+	<span id="Frame11" dir="ltr" style="position: absolute; top: 2.12in; left: 4.82in; width: 0.75in; height: 0.15in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Client
+		Ref    </b></span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame12" dir="ltr" style="position: absolute; top: 2.28in; left: 4.82in; width: 0.83in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>PO
+		Number</b></span></font></font></font></p>
+	</span>
+	<span id="Frame13" dir="ltr" style="position: absolute; top: 2.45in; left: 4.82in; width: 0.75in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Telephone
+		  </b></span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame14" dir="ltr" style="position: absolute; top: 2.45in; left: 5.98in; width: 2.08in; height: 0.33in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">xxxxxxx</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<br>
+		</p>
+	</span>
+	<span id="Frame15" dir="ltr" style="position: absolute; top: 1.53in; left: 4.82in; width: 1in; height: 0.25in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="calbri, serif"><font size="2" style="font-size: 10pt"><span lang="en-US"><b>INVOICE
+		NO</b></span></font></font></font></p>
+	</span>
+	<span id="Frame16" dir="ltr" style="position: absolute; top: 1.53in; left: 5.98in; width: 1.5in; height: 0.23in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="calbri, serif"><font size="2" style="font-size: 10pt"><span lang="en-US"><b>2014600</b></span></font></font></font></p>
+	</span>
+	<span id="Frame17" dir="ltr" style="position: absolute; top: 2.78in; left: 4.82in; width: 0.83in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Fax
+		          </b></span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame18" dir="ltr" style="position: absolute; top: 2.95in; left: 5.9in; width: 2.36in; height: 0.32in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">abc@xxxxx.com</span></font></font></font></p>
+	</span>
+	<span id="Frame19" dir="ltr" style="position: absolute; top: 2.45in; left: 0.82in; width: 3.5in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Attn.
+		   Accounts Payable</b></span></font></font></font></p>
+	</span>
+	<span id="Frame20" dir="ltr" style="position: absolute; top: 4.03in; left: 6.48in; width: 1.11in; height: 0.24in; border: none; padding: 0in; background: #ffffff">
+		<p align="right" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#ffffff"><font face="Arial Unicode MS, serif"><font size="3" style="font-size: 11pt"><span lang="en-US"><b>Value
+		(USD)</b></span></font></font></font></p>
+	</span>
+	<span id="Frame21" dir="ltr" style="position: absolute; top: 0.95in; left: 0.82in; width: 3.83in; height: 0.23in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="calbri, serif"><font size="2" style="font-size: 10pt"><span lang="en-US"><b>WSO2,
+		Inc.</b></span></font></font></font></p>
+	</span>
+	<span id="Frame22" dir="ltr" style="position: absolute; top: 4.03in; left: 0.9in; width: 1.08in; height: 0.24in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#ffffff"><font face="Arial Unicode MS, serif"><font size="3" style="font-size: 11pt"><span lang="en-US"><b>Particulars</b></span></font></font></font></p>
+	</span>
+	<span id="Frame23" dir="ltr" style="position: absolute; top: 2.62in; left: 4.82in; width: 0.75in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Telephone
+		  </b></span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame24" dir="ltr" style="position: absolute; top: 2.95in; left: 4.82in; width: 0.67in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Email
+		          </b></span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame25" dir="ltr" style="position: absolute; top: 2.95in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span>
+	<span id="Frame26" dir="ltr" style="position: absolute; top: 2.78in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span>
+	<span id="Frame27" dir="ltr" style="position: absolute; top: 2.62in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span>
+	<span id="Frame28" dir="ltr" style="position: absolute; top: 2.45in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span>
+	<span id="Frame29" dir="ltr" style="position: absolute; top: 2.28in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span>
+	<span id="Frame30" dir="ltr" style="position: absolute; top: 2.12in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span>
+	<span id="Frame31" dir="ltr" style="position: absolute; top: 1.87in; left: 5.82in; width: 0.08in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span><span class="sd-abs-pos" style="position: absolute; top: 0.2in; left: 5.98in; width: 133px">
+	<img src="data:image/png;base64,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" width="133" height="63" border="0"></span>
+	<span id="Frame32" dir="ltr" style="position: absolute; top: 1.53in; left: 5.82in; width: 0.08in; height: 0.25in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="calbri, serif"><font size="2" style="font-size: 10pt"><span lang="en-US"><b>:</b></span></font></font></font></p>
+	</span><br>
+	</p>
+	<p align="left" style="margin-bottom: 0in; line-height: 100%; widows: 0; orphans: 0">
+	<span id="Frame33" dir="ltr" style="position: absolute; top: 4.38in; left: 0.9in; width: 5.17in; height: 0.67in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial Unicode MS, serif"><font size="2" style="font-size: 10pt"><span lang="en-US">Fees
+		for WSO2Con 2014 registration</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial Unicode MS, serif"><font size="2" style="font-size: 10pt"><span lang="en-US">01
+		Participant for 2 days Conference 1 day tutorial</span></font></font></font></p>
+	</span>
+	<span id="Frame34" dir="ltr" style="position: absolute; top: 4.38in; left: 6.48in; width: 1.17in; height: 0.19in; border: none; padding: 0in; background: #ffffff">
+		<p align="right" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"> <font face="Arial Unicode MS, serif"><font size="2" style="font-size: 10pt"><span lang="en-US">10,000.00
+		</span></font></font></font>
+		</p>
+	</span>
+	<span id="Frame35" dir="ltr" style="position: absolute; top: 5.46in; left: 5.98in; width: 1.67in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="right" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"> <font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>10,000.00</b></span></font></font></font></p>
+	</span>
+	<span id="Frame36" dir="ltr" style="position: absolute; top: 5.46in; left: 0.9in; width: 0.5in; height: 0.25in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Total</b></span></font></font></font></p>
+	</span>
+	<span id="Frame37" dir="ltr" style="position: absolute; top: 9in; left: 2.07in; width: 2.5in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">3300543845</span></font></font></font></p>
+	</span>
+	<span id="Frame38" dir="ltr" style="position: absolute; top: 8.5in; left: 2.07in; width: 2.5in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">WSO2
+		Inc</span></font></font></font></p>
+	</span>
+	<span id="Frame39" dir="ltr" style="position: absolute; top: 8.75in; left: 2.07in; width: 2.16in; height: 0.16in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">121140399</span></font></font></font></p>
+	</span>
+	<span id="Frame40" dir="ltr" style="position: absolute; top: 9.25in; left: 2.07in; width: 2.5in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">SVBKUS6S</span></font></font></font></p>
+	</span>
+	<span id="Frame41" dir="ltr" style="position: absolute; top: 8.25in; left: 2.07in; width: 2.5in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">FC&#8209;Silicon
+		Valley Bank</span></font></font></font></p>
+	</span>
+	<span id="Frame42" dir="ltr" style="position: absolute; top: 9.66in; left: 4.82in; width: 2.83in; height: 0.23in; border: none; padding: 0in; background: #ffffff">
+		<p align="center" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">WSO2,
+		Inc.</span></font></font></font></p>
+	</span>
+	<span id="Frame43" dir="ltr" style="position: absolute; top: 8.75in; left: 0.98in; width: 1in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Routing
+		No</span></font></font></font></p>
+	</span>
+	<span id="Frame44" dir="ltr" style="position: absolute; top: 9in; left: 0.98in; width: 1in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Account
+		No</span></font></font></font></p>
+	</span>
+	<span id="Frame45" dir="ltr" style="position: absolute; top: 9.25in; left: 0.98in; width: 1in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">SWIFT
+		Code</span></font></font></font></p>
+	</span>
+	<span id="Frame46" dir="ltr" style="position: absolute; top: 8.5in; left: 0.98in; width: 1in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Account
+		Name</span></font></font></font></p>
+	</span>
+	<span id="Frame47" dir="ltr" style="position: absolute; top: 8.25in; left: 0.98in; width: 0.92in; height: 0.17in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Bank
+		Name</span></font></font></font></p>
+	</span>
+	<span id="Frame48" dir="ltr" style="position: absolute; top: 9.16in; left: 4.82in; width: 2.83in; height: 0.5in; border: none; padding: 0in; background: #ffffff">
+		<p align="center" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Padmika
+		Dissanaike</b></span></font></font></font></p>
+		<p align="center" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">VP
+		&#8209; Finance</span></font></font></font></p>
+		<p align="center" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">Authorized
+		Signatory</span></font></font></font></p>
+	</span>
+	<span id="Frame49" dir="ltr" style="position: absolute; top: 6.83in; left: 0.9in; width: 6in; height: 1.25in; border: none; padding: 0in; background: #ffffff">
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US"><b>Terms</b></span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Times New Roman, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">		</span></font></font></font><font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">·
+		Payment terms: Upon receipt of the invoice	</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">		·
+		Checks to be made payable to WSO2, Inc.</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">		·
+		Late payment may incur interest at the rate of 1.5% per month	</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<font color="#000000"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><span lang="en-US">		·
+		Bank Telegraphic Transfer information as follows:</span></font></font></font></p>
+		<p align="left" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%; widows: 0; orphans: 0">
+		<br>
+		</p>
+	</span><br>
+	</p>
+</div>
+</body>
+</html>

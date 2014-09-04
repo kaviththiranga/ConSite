@@ -1,0 +1,171 @@
+/*
+Theme Name: WSO2Con 2013
+Theme URI: 
+Author: the WSO2 Marketing Team
+Author URI: http://wso2.com/
+Description: The WSO2Con 2013 theme for WordPress is the theme for WSO2Con 2013 London.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentyeleven
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.php
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body { font-family: 'Open Sans', sans-serif; font-size: 1em; line-height: 150%; color: #E1E1E1; background-color: #000000; }
+p { font-weight: normal; font-size: 100%; margin: 12px 0px; }
+h1 { display: none; }
+h1.cTitle { font-size: 170%; line-height: 125%; font-family: 'Oxygen', sans-serif; font-weight: bold; margin: 12px 0px 10px; display: inline-block; }
+h2 { font-size: 150%; line-height: 130%; font-family: 'Oxygen', sans-serif; font-weight: bold; margin: 12px 0px 10px; }
+h3 { font-size: 130%; line-height: 150%; font-family: 'Oxygen', sans-serif; font-weight: bold; margin: 12px 0px 10px; }
+h4 { font-size: 110%; line-height: 150%; font-family: 'Oxygen', sans-serif; font-weight: bold; margin: 12px 0px 5px; }
+ul { margin: 10px 0px 10px 20px; list-style: disc; }
+ul li { margin: 3px 0px; }
+ul li ul { list-style: circle; }
+a { color: #77cdd7; text-decoration: none; }
+a:hover { color: #f47b20; }
+strong { font-weight: bold; }
+sup {  }
+sup { vertical-align: super; font-size: 85%;  }
+
+.cClear { clear: both; }
+
+.cHeader { height: 55px; background-color: #0e1f34; position: fixed; width: 100%; z-index: 100; }
+.cTopMenu { padding: 0px 20px; font-size: 90%; }
+.cTopMenuLinks { width: 90%; max-width: 960px; margin: auto; }
+.cTopMenu a { color: #0e1f34; }
+.cTopMenu a:hover { color: #f47b20; }
+.cMenu { width: 90%; max-width: 960px; margin: auto; }
+.cMenu  ul { list-style: none; margin: 0px; padding: 0px; display: inline-block; float: left; }
+.cMenu ul li { float: left; position: relative; padding: 12px 20px 0px; border-right: solid 1px #0066b2; }
+.cMenu ul li.cLeft { padding: 12px 20px 0px 0px; }
+.cMenu ul li.cLeft a { color: #00dbff; font-family: 'Oxygen', sans-serif; }
+.cMenu ul li.cLeft a:hover { color: #ffffff; }
+.cMenu .cEnd { border-right: 0px; }
+.cMenu ul li a { color: #00dbff; font-weight: bold; font-size: 100%; font-family: 'Oxygen', sans-serif; }
+.cMenu ul li a:hover { color: #ffffff; }
+.cRegisterButton { background-color: #00dbff; border-radius: 5px; color: #000000; display: inline-block; float: right; font-family: 'Oxygen',sans-serif; font-size: 120%; font-weight: bold; line-height: 100%; margin: 11px 0px 0 0; padding: 8px 20px; }
+.cRegisterButton:hover { color: #ffffff; background-color: #f47b20; }
+
+/* Footer styles end */
+
+.slicknav_menu { display:none; }
+.slicknav_menu ul { float: none; margin: 9px 0px 0px; background-color: #0e1f34; width: 100%; padding: 0px; }
+.slicknav_menu ul li { float: none; position: relative; border-right: 0px; border-top: solid 1px #666666; margin: 0px; padding: 0px; }
+.slicknav_menu ul li a:hover { background-color: transparent; border-radius: 0px; }
+.slicknav_menu { background: none repeat scroll 0 0 #0e1f34; margin: 7px 0px 0px; float: left; padding: 0px; }
+.slicknav_btn { background-color: #00dbff; padding: 8px 15px; margin: 0px; float: right; display: inline-block; }
+.slicknav_btn:hover { background-color: #f47b20; }
+.slicknav_menu:before, .slicknav_menu:after {  }
+
+/*Media Styles*/
+
+/* Footer styels */
+
+.cFooter { background-color: #000000; padding: 10px 0px 5px;  }
+.cFooterContent { width: 90%; max-width: 960px; margin: auto; }
+.cFooter ul { list-style: none; margin: 0px; padding: 0px; display: inline-block; float: left; }
+.cFooter ul li { float: left; position: relative; padding: 0px 15px; }
+.cFooter ul li a { color: #cccccc; text-decoration: none; }
+.cFooter ul li a:hover { color: #F68A33; }
+.cFooter .cCopyright { float:right; color: #999999; margin: 5px 20px 0px; font-size:80%; }
+.cFooter ul li img { min-width: 100px; }
+
+.cMainConLink { text-align: center; width: 100%; margin-bottom: 20px; border-bottom: 1px solid #292929; display: block; margin-top: -10px; }
+.cMainConLink a { font-size: 14px; color: #0084B6; margin-bottom: 30px; margin-left: auto; margin-right: auto; padding-bottom: 10px; padding-top: 10px; }
+.cMainConLink a img { width:40%; margin-bottom: 10px; }
+
+.cBottomLinks { background-color: #06254a; width: 100%;  }
+.cBottomLinks .cBottomLinksContent { width: 90%; max-width: 960px; margin: auto; padding: 10px 0px 0px; }
+
+.cPreviousConf { display: inline-block; float: left; margin: 0px 50px 0px 0px; }
+.cPreviousConf h2 { font-family: 'Oxygen', sans-serif; font-weight: 300; font-size: 110%; color: #77cdd7; margin: 0px; line-height: 36px; display: inline-block; float: left; }
+.cPreviousConf h2 a { color: #77cdd7; }
+.cSocial { float: left; margin: 2px 0px 0px; display: inline-block; border-left: solid 1px #77cdd7; border-right: solid 1px #77cdd7; padding: 0px 50px 0px 30px; }
+.cSocial h2 { font-weight: normal; font-size: 140%; color: #FBB03B; margin: 0px; display: inline-block; float: left; }
+.cIcons { margin: 0px 0px 0px 15px; float: left; }
+.cIcons a {  }
+.cBottomLinks .cBottomLinksContent .cContact { float: left; margin: 2px 0px 0px; display: inline-block; padding: 0px 0px 0px 70px;  }
+.cBottomLinks .cBottomLinksContent .cContact a { font-family: 'Oxygen', sans-serif; font-size: 18px; font-weight: normal; color: #ffffff; line-height: 35px; }
+.cBottomLinks .cBottomLinksContent .cContact a:hover { color: #77cdd7; }
+
+/*Bookmark tag style*/
+
+a.cBookmark { display: inline-block; margin: -50px 0px 0px; position: absolute; }
+
+a.cVideo { display: block; float: left; background-image:url(images/us14-wso2con-social-icons.png); background-repeat: no-repeat; background-position: left center; display: block; width:53px; height: 36px; margin-left: 10px; border-radius: 5px; }
+a.cFacebook { display: block; float: left; background-image:url(images/us14-wso2con-social-icons.png); background-repeat: no-repeat; background-position: -111px center; display: block; width:36px; height: 36px; margin-left: 20px; border-radius: 5px; }
+a.cTwitter { display: block; float: left; background-image:url(images/us14-wso2con-social-icons.png); background-repeat: no-repeat; background-position: -63px center; display: block; width:36px; height: 36px; margin-left: 20px; border-radius: 5px; }
+a.cLinkedin { display: block; float: left; background-image:url(images/us14-wso2con-social-icons.png); background-repeat: no-repeat; background-position: -111px center; display: block; width:36px; height: 36px; margin-left: 20px; border-radius: 5px; }
+a.cGplus { display: block; float: left; background-image:url(images/us14-wso2con-social-icons.png); background-repeat: no-repeat; background-position: -158px center; display: block; width:36px; height: 36px; margin-left: 20px; border-radius: 5px; }
+a.cFacebook:hover, a.cTwitter:hover, a.cLinkedin:hover, a.cGplus:hover, a.cVideo:hover { background-color: #000000; }
+
+/*Media Styles*/
+
+@media screen and (max-width: 40em) {
+    .js #menu { display:none; }
+    .js .slicknav_menu { display:inline-block; width: 100%; }
+    .cResponsiveMenu { width: 90%; position: fixed; margin: 4px 0px 0px; z-index: -1; }
+    .cRegisterButton { position: relative; z-index: 1000; float: right; margin: 11px 110px 0px 0px; }
+    .slicknav_menu { position: relative; width:100%; }
+    .cMenu ul li.cLeft { padding: 0px 20px 0px 0px; }
+}
+
+
+@media screen and (max-width: 960px) {
+    .cPreviousConf { display: inline-block; float: left; margin: 0px 20px 0px 0px; }
+    .cSocial { float: left; margin: 2px 0px 0px; display: inline-block; border-left: solid 1px #77cdd7; border-right: solid 1px #77cdd7; padding: 0px 30px 0px 0px; }
+    .cBottomLinks .cBottomLinksContent .cContact { float: left; margin: 2px 0px 0px; display: inline-block; padding: 0px 0px 0px 30px; }
+    .cIcons { margin: 0px 0px 0px 10px; }
+    
+}
+
+@media screen and (max-width: 800px) {
+   .cPreviousConf { border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 0 10px; }
+   .cSocial { border-left: 0 solid #77CDD7;
+    border-right: 1px solid #77CDD7;
+    float: left;
+    margin: 15px 0 10px;
+    padding: 0 30px 0 0; }
+   .cIcons { margin: 0px 0px 0px 0px; float: left; }
+   a.cFacebook { margin-left: 0px; border-radius: 5px; }
+   .cBottomLinks .cBottomLinksContent .cContact { display: inline-block;
+    float: left;
+    margin: 15px 0 0 20px;
+    padding: 0; }
+}
+
+@media screen and (max-width: 500px) {
+    .cPreviousConf  h2 { font-size: 12px; display: block; }
+    .cFooter .cCopyright { float:none; text-align: center; margin: 5px 0px; }
+    .cFooter ul li { float: none; position: relative; padding: 0px 15px; }
+    .cFooter ul { list-style: none; margin: auto; padding: 0px; display: block; float: none; text-align: center; }
+}

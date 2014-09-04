@@ -1,0 +1,288 @@
+iframe { height: 0px; }
+
+.cMainContainer{ background-color: #133257; width: 100%; min-height: 100vh; background-image: url(images/us14-wso2con-inner-bg.jpg); background-repeat: no-repeat; background-position: center 55px; background-attachment: fixed; }
+.cMainContent { width: 90%; max-width: 960px; margin: auto; }
+.cHomeLogo { display: inline-block; margin: 8% 0px 0px; }
+.cHomeLogo img { width: 100%; max-width: 585px; }
+
+.cTitleBar { background-color: #133257; width: 100%; display: inline-block; margin: 55px 0px 0px; }
+.cTitleBar .cTitleBarContent { width: 90%; max-width: 960px; margin: auto; }
+.cTitleBar .cTitleBarContent .cInnerLogo { display: inline-block; float: right; padding: 25px 0px 25px; }
+.cTitleBar .cTitleBarContent .cInnerLogo img { width: 100%; max-width: 453px; }
+
+.cMainContent h1.cTitle { display: inline-block; background-color: #133257; font-family: 'Oxygen', sans-serif; font-weight: 300; font-size: 36px; line-height: 42px; margin: -75px 0px 20px; color: #ffce54; position: absolute; }
+.cMainContent .cContent { padding: 20px 0px; }
+.cContent p { font-family: 'Noto Sans', sans-serif; font-size: 14px; margin: 7px 0px; line-height: 150%; }
+.cContent .cForm { background-color: rgba(255,255,255,1); border-radius: 10px; margin: 20px 0px; padding: 10px 20px;  }
+
+.cMessage { background-color: rgba(0,0,0,.5); margin: 12% auto; width: 80%; padding: 50px 10%; border-radius: 10px; text-align: center; }
+.cMessage h2.cTitle { font-family: 'Noto Sans', sans-serif; font-size: 1.2em; line-height: 150%; font-weight: normal; margin: 10px 0px 10px; color: #ffffff; }
+.cMessage p { color: #efce7f; }
+
+.cContentRow h2 { font-size: 24px; line-height: 150%; font-weight: 300; margin: 10px 0px 15px; font-family: 'Oxygen', sans-serif; }
+.cContentRow h3 { font-size: 18px; color: #efce7f; line-height: 150%; font-weight: normal; margin: 10px 0px 15px; font-family: 'Oxygen', sans-serif; }
+.cContentRow ol { margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Noto Sans', sans-serif; font-size: 14px; margin: 7px 0px; line-height: 150%; color: #cccccc; }
+.cContentRow ol .cMessage { padding: 20px 50px; }
+.cContentRow ol li { padding: 7px 0px; }
+.cContentRow .cMessage { margin: 0px; text-align: left; padding: 20px 30px; width: auto; }
+.cContentRow .cMessage p { color: #cccccc; }
+.cContentRow .cMessage ul { margin: 0px; padding: 0px 0px 0px 10px; font-family: 'Noto Sans', sans-serif; font-size: 14px; margin: 7px 0px; line-height: 150%; color: #cccccc; }
+.cContentRow .cMessage ol { margin: 0px; padding: 0px 0px 0px 20px; font-family: 'Noto Sans', sans-serif; font-size: 14px; margin: 7px 0px; line-height: 150%; color: #cccccc; list-style: lower-alpha; }
+.cContentRow .cMessage span.cHighlight { font-weight: bold; color: #efce7f; }
+.cContentRow .cLeft { width: 45%; margin: 0 10% 0 0; float: left; }
+.cContentRow .cRight { width: 45%; margin: 0 0 0 0; float: right; }
+
+.cContentRow .cLeftCFP { width: 60%; margin: 0 5% 0 0; float: left; }
+.cContentRow .cRightCFP { width: 35%; margin: 0 0 0 0; float: right; }
+
+.cContentRow .cVenue { margin: 0px 0px 30px 0px; color: #efce7f; }
+.cContentRow .cVenue h2 { font-weight: normal; }
+
+.cBottomLinks { padding: 0px 0px 10px; }
+
+iframe.cForms { height: auto; }
+
+.cCFPbutton { text-align:center; padding: 10px 0px; width: 35%; float: right; }
+.cCFPbutton a { padding: 10px 10%; border-radius: 7px; line-height: 24px; background-color:#f47b20; color:#ffffff; font-size: 20px; margin:auto; display:inline-block; font-weight:bold; width: 80%; }
+.cCFPbutton a:hover { color: #000000; }
+a.cBookmark { display: inline-block; margin: -70px 0px 0px; position: absolute; }
+span.cMandatory { color: #ed1c24; }
+
+/*Registration Styles*/
+.cRegTopLinks { display: inline-block; float: right; font-weight: normal; color:#f47b22; line-height: 24px; font-size: 18px; margin: 15px 0px 10px 25px; }
+.cRegFee { margin: 10px 0px 25px 0px; display: inline-block; float: left; }
+.cRegForm p { font-size: 0px; line-height: 0px; margin: 0px; }
+.cRegForm .cInfo p { font-size: 14px; line-height: 20px; margin: 10px 0px 0px; }
+.cRegForm .cInfo a { color: #0089de; }
+.cRegForm .cInfo a:hover { color: #f47b20; }
+.cRegFee p { font-size: 18px; line-height: 24px; margin: 5px 0px; }
+.cRegFee h3 { font-size: 20px; margin: 0px 0px 10px; padding: 0px 0px 10px; border-bottom: solid 1px #cccccc; }
+.cRegFee .cEaryBird { color: #f47b22; font-size: 28px; line-height: 34px; }
+.cRegFee .cEaryBird span.cRate { font-size: 28px; font-weight: bold; }
+.cRegFee .cEaryBird span { font-weight: normal; font-size: 16px; line-height: 22px; }
+.cRegDes { font-size: 18px; line-height: 24px; margin: 15px 0px 20px; display: block; }
+.cRegForm { clear: both; background-color: #ffffff; color: #666666; margin: 0px 0px 20px; padding: 30px 30px 20px; font-family: 'Noto Sans',sans-serif; font-size: 14px; line-height: 20px; border-radius: 10px; }
+.cRegForm table tr td { padding: 0px 20px 5px 0px; }
+.cRegForm label { min-width: 80px; display: inline-block; }
+.cRegForm label.cPackage, .cRegForm td.cPackage { font-weight: bold; font-size: 16px; }
+.cRegForm input.cNumber, .cRegForm select.cNumber { width: 80px; border-radius: 3px; border: solid 1px #cccccc; background-color: #ffffff; font-family: 'Noto Sans',sans-serif; font-size: 14px; color: #666666; }
+.cRegForm input.cDetails, .cRegForm select.cSelect { width: 100%; border-radius: 3px; min-width: 200px; border: solid 1px #cccccc; background-color: #ffffff; font-family: 'Noto Sans',sans-serif; font-size: 14px; color: #666666; }
+.cRegForm input.cNumber { width: 80px; min-width: 80px; border-radius: 3px; border: solid 1px #cccccc; background-color: #ffffff; font-family: 'Noto Sans',sans-serif; font-size: 14px; color: #666666; }
+.cRegForm select.cNumber { min-width: 20px; width: auto; }
+.cRegForm h3 { font-size: 16px; font-weight: bold; line-height: 22px; padding: 0px 0px 5px; border-bottom: solid 1px #ededed; margin: 20px 0px 5px; }
+.cRegForm .cTotal { font-size: 16px; line-height: 22px; font-weight: bold; color: #000000; }
+.cRegForm .cFee { font-weight: bold; color: #f47b22; }
+.cRegForm .cLeft { width: 48%; margin: 0 3% 0 0; float: left; display: inline-block; vertical-align: top; }
+.cRegForm .cRight { width: 48%; float: left; display: inline-block; vertical-align: top; }
+.cRegForm ol { margin: 0px; padding: 0px 0px 0px 20px; }
+.cRegForm ol li { padding: 25px 0px 0px 5px; clear: both; }
+.cRegForm ol li table { width: 100%; }
+.cRegForm ol li table td { min-width: 80px; }
+.cRegForm table td.cDetail { color: #000000; font-weight: bold; }
+.cRegForm ol li table td.cField { max-width: 90px; width: 25%; }
+.cRegForm table tr td.cTableTitle { padding: 10px 0px 10px; }
+.cRegForm table tr td.cPromo { padding: 4px 0px 4px; }
+.cRegForm table.cBillingInfo td.cField { max-width: 90px; width: 25%; }
+.cRegHeader { margin: 10px 0px 0px; }
+.cRegHeader .cStep { color: #ffffff; border-top-right-radius: 7px; display: inline-block; float: left; font-family: 'Oxygen',sans-serif; font-size: 18px; font-weight: 700; line-height: 24px; padding: 7px 20px; }
+.cRegHeader .cActive { background-color: #0093d6; }
+.cRegHeader .cInactive1 { background-color: #7ed3f7; }
+.cRegHeader .cInactive2 { background-color: #b1e3fa; }
+.cRegForm .cButtonPane { border-top: solid 1px #cccccc; padding: 15px 0px 0px; margin: 15px 0px 0px; }
+.cRegForm .cButtonPane .cRegBtn { display: inline-block; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; font-weight: normal; color: #ffffff; background-color: #80b726; padding: 0px 20px; border: 0px; border-radius: 7px; cursor: pointer; margin: 0px 5px 0px 0px; }
+.cRegForm .cButtonPane .cRegBtnPayNow { background-color: #80b726; }
+.cRegForm .cButtonPane .cRegBtnPayLater { background-color: #f47b22; }
+.cRegForm .cButtonPane .cRegBtnBack { background-color: #777777; }
+.cRegForm .cButtonPane .cRegBtn:hover { opacity: .85; }
+.cRegForm .cButtonPane .cBtnText { display: inline-block; float: left; margin: 0px 20px 0px 0px; font-size: 18px; line-height: 30px; color: #689726; }
+.cRegForm .cButtonPane .cPaymentsMethods { display: inline-block; float: right; }
+.cRegForm .cButtonPane .cPayMethodsText { float: left; font-size: 16px; color: #888888; line-height: 35px; display: inline-block; margin: 0px 15px 0px 15px;  }
+.cRegForm .cButtonPane .cPayMethods { display: inline-block; }
+.cRegForm .cButtonPane .cPayMethods img { max-width: 289px; width: 100%; }
+.cOptIn { margin: 10px 0px 5px; font-size: 14px; line-height: 20px; float: left; }
+.cOptIn .cCheckbox { background-color: #ffffff; border: solid 1px #cccccc; margin: 0px 10px 0px 0px; }
+
+.cShare { padding: 7px 7px; border-radius: 10px; background-color: #000000; display: inline-block; margin: 20px 0px 0px; }
+.cShare .cShareContent { font-size: 18px; line-height: 24px; display: inline-block; float: left; margin: 7px 20px; }
+.cShare ul { list-style: none; margin: 0px; padding: 0px; display: inline-block; }
+.cShare ul li { position: relative; float: left; padding: 0px 5px 0px 0px; margin: 0px; line-height: 0px; }
+.cShare ul li a { line-height: 0px; }
+.cShare ul li a:hover { opacity: 0.7; }
+
+/*Agenda styles*/
+
+.cControls { border-bottom: 1px solid #dab74c; display: inline-block; padding-bottom: 10px; padding-top: 10px; width: 100%; font-family: 'Oxygen',sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; }
+.cControls .cLinkContainer { display: inline-block; float: left; width: 33.33%; min-width: 250px; }
+.cControls .cLinkContainer .cDate { font-size: 14px; line-height: 20px; font-weight: normal; }
+.cContentRow .cDay h2 { margin: 15px 0px 5px; }
+.cContentRow .cDay h3 { margin: 0px 0px 15px; }
+.cContentRow .cAgenda { padding: 0px 0px; border-radius: 0px; margin: 0px 0px 20px; }
+.cAgenda .cSession, .cAgenda .cTime { font-family: 'Oxygen',sans-serif; padding: 7px 10px; border-bottom: solid 1px #005988; font-size: 13px; line-height: 19px; }
+.cAgenda .cSession { width: 15%; border-left: solid 1px #00486a; }
+.cAgenda .cTime { width: 10%; min-width: 75px; color: #a9def0; }
+.cSessionGeneral { background-image: url("images/general-bg.png"); background-repeat: repeat; }
+.cSessionKeynote { background-image: url("images/keynote-bg.png"); background-repeat: repeat; }
+.cSessionAPI { background-image: url("images/api-bg.png"); background-repeat: repeat; }
+.cSessionAPItitle { background-color: #3d9e26; font-weight: bold; }
+.cSessionIntegration { background-image: url("images/integration-bg.png"); background-repeat: repeat; }
+.cSessionIntegrationtitle { background-color: #9962ff; font-weight: bold; }
+.cSessionMobile { background-image: url("images/mobile-bg.png"); background-repeat: repeat; }
+.cSessionMobiletitle { background-color: #e14040; font-weight: bold; }
+.cSessionAppDev { background-image: url("images/appdev-bg.png"); background-repeat: repeat; }
+.cSessionAppDevtitle { background-color: #ff711b; font-weight: bold; }
+.cSessionSecurity { background-image: url("images/security-bg.png"); background-repeat: repeat; }
+.cSessionSecuritytitle { background-color: #ff9c00; font-weight: bold; }
+.cSessionStrategy { background-image: url("images/strategy-bg.png"); background-repeat: repeat; }
+.cSessionStrategytitle { background-color: #9bad23; font-weight: bold; }
+.cSessionCloud { background-image: url("images/cloud-bg.png"); background-repeat: repeat; }
+.cSessionCloudtitle { background-color: #01a7d9; font-weight: bold; }
+.cSessionIoT { background-image: url("images/iot-bg.png"); background-repeat: repeat; }
+.cSessionIoTtitle { background-color: #385a62; font-weight: bold; }
+.cSessionAnalytics { background-image: url("images/bigdata-bg.png"); background-repeat: repeat; }
+.cSessionAnalyticstitle { background-color: #254eb8; font-weight: bold; }
+.cSessionGovernance { background-image: url("images/governance-bg.png"); background-repeat: repeat; }
+.cSessionGovernancetitle { background-color: #754c24; font-weight: bold; }
+
+.cSessionHealthcare { background-image: url("images/healthcare-bg.png"); background-repeat: repeat; }
+.cSessionHealthcaretitle { background-color: #00a5da; font-weight: bold; }
+
+.cSessionFinancialServices { background-image: url("images/financial-services-bg.png"); background-repeat: repeat; }
+.cSessionFinancialServicestitle { background-color: #008dd2; font-weight: bold; }
+
+.cSessionTelecom { background-image: url("images/telecom-bg.png"); background-repeat: repeat; }
+.cSessionTelecomtitle { background-color: #0069b5; font-weight: bold; }
+
+.cSessioneCommerce { background-image: url("images/ecommerce-bg.png"); background-repeat: repeat; }
+.cSessioneCommercetitle { background-color: #005f94; font-weight: bold; }
+
+.cSessionDefense { background-image: url("images/defense-bg.png"); background-repeat: repeat; }
+.cSessionDefensetitle { background-color: #005387; font-weight: bold; }
+
+.cSessionPartnerTrack { background-image: url("images/partner-track-bg.png"); background-repeat: repeat; }
+.cSessionPartnerTracktitle { background-color: #10406f; font-weight: bold; }
+
+.cSessionEducation { background-image: url("images/education-bg.png"); background-repeat: repeat; }
+.cSessionEducationtitle { background-color: #006a9b; font-weight: bold; }
+
+.cSessionGovernment { background-image: url("images/government-bg.png"); background-repeat: repeat; }
+.cSessionGovernmenttitle { background-color: #0d4ba0; font-weight: bold; }
+
+.cSpeakerName { font-size: 12px; line-height: 18px; font-style: italic; margin: 12px 0px 0px;}
+.cDesCompany { font-size: 12px; line-height: 18px; font-style: italic; color: #aaa17d; }
+
+/*Banners*/
+.cTellaFriendBannerRegP { float: right; }
+.cTellaFriendBannerRegP img { border-radius: 7px; max-width: 418px; width: 100%; }
+
+/*Why attend page*/
+.cWhyAttend h2.cTitle { font-size: 24px; font-weight: bold; line-height: 30px; color: #ffcd00; margin: 27px 0px 20px; }
+.cWhyAttend .cMessage { padding: 30px 50px; }
+.cWhyAttend .cMessage p { font-size: 16px; line-height: 24px; }
+.cWhyAttend .cMessage ul { margin: 0px 0px 0px 20px; }
+.cWhyAttend .cMessage ul li { font-size: 16px; font-weight: bold; line-height: 24px; }
+.cWhyAttend .cMessage ul li.cEven { color: #fbb03b; }
+.cWhyAttend .cMessage ul li.cOdd { color: #f7931e; }
+.cWhyAttend .cMessage .cDiagram { text-align: center; margin: 25px 0px 25px; }
+.cWhyAttend .cMessage a.cBtn { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; color: #ffffff; margin: 10px 0px 0px; display: inline-block; background-color: #f47c20; border-radius: 7px; padding: 5px 20px; }
+.cWhyAttend .cMessage a.cBtn:hover { opacity: 0.8; }
+.cWhyAttend .cMessage iframe { height: 100%; width: 100%; max-width: 620px; height: 345px; border: solid 1px #666666; margin: 20px 0px; }
+
+/*My Profile Styles*/
+
+.cContentRow .cMyProfile { padding: 40px 50px; font-size: 13px; line-height: 19px; margin: 0px 0px 20px; }
+.cContentRow .cMyProfile .cMyProfileRightLinks { float: right; margin: -40px -50px 0px 0px; }
+.cContentRow .cMyProfileRightLinks ul { list-style: none; margin: 0px; padding: 0px; }
+.cContentRow .cMyProfileRightLinks ul li { padding: 10px 40px 10px 0px; border-bottom: solid 1px #0066b2; }
+.cContentRow .cMyProfileRightLinks ul li a { font-size: 16px; font-weight: bold; line-height: 22px; color: #f89c1b; }
+.cMyProfileRightLinks ul li a:hover { color: #ffffff; }
+.cContentRow .cMyProfile table tr td { padding: 2px 15px 0px 0px; color: #e6e6e6; min-height: 24px; }
+.cContentRow .cMyProfile .cUserName { font-size: 16px; line-height: 22px; padding: 0px 0px 10px; }
+.cContentRow .cMyProfile .cDetails { background-color: #00527c; border: 0px; min-width: 200px; height: 20px; padding: 2px 5px; margin: 2px 0px; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
+.cMyProfile .cSizes { margin: 20px 0px 0px; border-top: dashed 1px #0077c0; padding: 20px 0px 0px; }
+.cMyProfile .cSelect { background-color: #ededed; border: 0px; min-width: 200px; height: 20px; padding: 2px 5px; margin: 2px 0px; color: #222222; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
+.cMyProfile .cButtonPane { border-top: solid 1px #0077c0; padding: 20px 0px 0px; margin: 20px 0px 0px; }
+.cMyProfile .cButtonPane .cSubBtn { background-color: #f47932; color: #ffffff; border: 0px; margin: 0px; border-radius: 7px; font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 16px; font-weight: bold; padding: 7px 20px; cursor: pointer; }
+.cContentRow .cMyProfile h3 { font-size: 18px; line-height: 26px; color: #f89c1b; }
+.cContentRow .cMyProfile .cVisa .cDetails { background-color: #e6e6e6; color: #444444; min-width: 300px; }
+.cContentRow .cMyProfile .cVisa .cDate { width: 40px; min-width: 40px; }
+.cContentRow .cMyProfile .cDates td { padding: 2px 5px 0px 0px; }
+.cTop { float: right; }
+.cMyProfile ul.cShare { list-style: none; margin: 0px; padding: 0px; display: inline-block; background-color: transparent; }
+.cMyProfile ul.cShare li { position: relative; float: left; padding: 0px 5px 0px 0px; margin: 0px; line-height: 0px; }
+.cMyProfile ul.cShare li a { line-height: 0px; }
+.cMyProfile ul.cShare li a:hover { opacity: 0.7; }
+
+
+/*Media Styles*/
+
+@media screen and (max-width: 930px) {
+    .cTellaFriendBannerRegP { float: none; margin: 0px 0px 20px; }
+}
+
+@media screen and (max-width: 900px) {
+    .cTitleBar { height: 160px; }
+    .cTitleBar .cTitleBarContent .cInnerLogo { display: inline-block; float: none; padding: 25px 0px 20px; }
+    .cMainContent h1.cTitle { display: inline-block; background-color: #133257; font-family: 'Oxygen', sans-serif; font-weight: 300; font-size: 30px; line-height: 36px; margin: -60px 0px 20px; color: #ffce54; position: absolute; }
+
+    .cBottomLinks { height: auto; position: inherit; bottom: auto; }
+    .cMainBannerContent .cRight { margin: 0px 0px 0px 30px; padding: 20px 0px 30px; }
+}
+
+@media screen and (max-width: 600px) {
+    .cMainBanner { height: auto; }
+    .cMessage { margin: 25px auto; width: 80%; padding: 30px 10%; }
+    .cContentRow .cLeft { width: auto; margin: 0px; float: none; }
+    .cContentRow .cRight { width: auto; margin: 0px; float: none; }
+    .cCFPbutton { margin: 0px 0px 0px 15px; }
+    .cCFPbutton a { font-size: 18px; line-height: 22px; padding: 10px 14%; width: 72%; }
+    
+    .cWhyAttend h2.cTitle { font-size: 20px; font-weight: bold; line-height: 26px; color: #ffcd00; margin: 15px 0px 10px; }
+    .cWhyAttend .cMessage { padding: 12px 20px 15px; }
+    .cWhyAttend .cMessage p { font-size: 14px; line-height: 20px; }
+    .cWhyAttend .cMessage iframe { height: 100%; width: 100%; max-width: 620px; height: 250px; border: solid 1px #666666; margin: 20px 0px; }
+    .cWhyAttend .cMessage ul li { font-size: 14px; line-height: 20px; }
+    .cWhyAttend .cMessage a.cBtn { font-size: 16px; margin: 5px 0px 0px; padding: 5px 20px; }
+    
+    .cContentRow .cMyProfile { padding: 20px 30px; }
+    .cContentRow .cMyProfile .cMyProfileRightLinks { float: none; margin: 0px 0px 30px; }
+    .cContentRow .cMyProfile table tr td { display: inline-block; min-width: 300px; }
+    .cContentRow .cMyProfile .cVisa .cDetails { min-width: 200px; }
+    .cContentRow .cMyProfile .cDates td { padding: 2px 5px 0px 0px; min-width: 20px; }
+    .cContentRow .cMyProfile .cVisa .cDate { width: 40px; min-width: 40px; }
+}
+
+@media screen and (max-height: 720px) {
+    .cMainContainer{ background-position: center 55px; background-size: auto 100%; }
+
+    .cBottomLinks { height: auto; position: inherit; bottom: auto; }
+    .cMessage { margin: 10% auto; width: 80%; padding: 30px 10%; }
+}
+
+/*Responsive styles for Reg form*/
+
+@media screen and (max-width: 800px){
+    .cRegForm .cLeft, .cRegForm .cRight { width: auto; min-width: 50%; }
+    .cRegForm .cButtonPane .cPayMethods { max-width: 250px; }
+    
+    .cAgenda .cSession, .cAgenda .cTime { width: 100%; display: inline-block; float: left; border-left: 0px; padding: 7px 10px; }
+    .cContentRow  .cAgenda { padding: 0px 20px 0px 0px; }
+    .cAgenda .cTopics { display: none; }
+ }
+
+@media screen and (max-width: 500px){
+    .cRegHeader .cInactive1, .cRegHeader .cInactive2 { display: none; }
+    .cRegHeader .cActive { border-top-left-radius: 7px; width: auto; float: none; display: block; }
+    .cRegForm .cButtonPane .cRegBtn, .cRegForm .cButtonPane .cBtnText { float: none; display: block; margin: 0px 0px 10px; text-align: center; }
+    .cRegForm .cButtonPane .cPaymentsMethods { float: none; }
+}
+
+@media screen and (max-width: 450px){
+    .cRegForm .cLeft, .cRegForm .cRight { width: auto; margin: 0; float: none; }
+    .cRegForm table tr td { display: inline-block; clear: both; float: left; }
+    .cRegForm table tr td.cTableTitle { display: none; }
+    .cRegForm table.cBillingInfo td { max-width: inherit; width: 100%; }
+    .cRegForm table.cBillingInfo td.cField { max-width: inherit; width: auto; }
+    .cRegTopLinks { display: inline-block; float: none; font-weight: bold; color:#f47b22; line-height: 22px; font-size: 16px; margin: 0px 0px 10px; }
+    .cRegFee { display: block; text-align: center; }
+    .cShare ul { margin: 0px 0px 10px; }
+ }
