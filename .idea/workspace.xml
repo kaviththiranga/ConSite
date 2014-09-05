@@ -23,11 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="49" selection-start="12666" selection-end="12682" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="8388">
-              <folding />
+            <state line="144" column="25" selection-start="6678" selection-end="6678" vertical-scroll-proportion="-51.25926" vertical-offset="1208" max-vertical-offset="3222">
+              <folding>
+                <element signature="n#style#0;n#table#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +38,7 @@
       <file leaf-file-name="invoice_generator.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/invoice_generator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="0" selection-end="596" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="576">
+            <state line="18" column="27" selection-start="541" selection-end="541" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -44,7 +47,7 @@
       <file leaf-file-name="visa_generator.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/visa_generator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.5010707" vertical-offset="0" max-vertical-offset="934">
+            <state line="40" column="1" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.77087796" vertical-offset="0" max-vertical-offset="934">
               <folding />
             </state>
           </provider>
@@ -61,16 +64,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/sample.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/actions/invoice_generator.php" />
+        <option value="$PROJECT_DIR$/includes/html2pdf.class.php" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/actions/visa_generator.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1970" />
+    <option name="x" value="50" />
     <option name="y" value="21" />
     <option name="width" value="1870" />
     <option name="height" value="1059" />
@@ -135,6 +139,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2con" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2con" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2con" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -145,6 +191,8 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -172,12 +220,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1970" y="21" width="1870" height="1059" extended-state="6" />
+    <frame x="50" y="21" width="1870" height="1059" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18716578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -188,7 +237,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -212,13 +260,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="49" selection-start="12666" selection-end="12682" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="8388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/invoice_generator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="18" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="576">
@@ -233,18 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="24" selection-start="16571" selection-end="16591" vertical-scroll-proportion="0.0" vertical-offset="6822" max-vertical-offset="10890">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="35" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0" vertical-offset="5268" max-vertical-offset="7866" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/visa_generator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="3" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="252">
@@ -252,28 +281,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.php">
+    <entry file="file://$PROJECT_DIR$/includes/html2pdf.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="13" selection-start="4232" selection-end="4232" vertical-scroll-proportion="-3.1824105" vertical-offset="5433" max-vertical-offset="7866" />
+        <state line="494" column="26" selection-start="20209" selection-end="20209" vertical-scroll-proportion="0.35287732" vertical-offset="8423" max-vertical-offset="116748">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="49" selection-start="12666" selection-end="12682" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="8388">
-          <folding />
+        <state line="144" column="25" selection-start="6678" selection-end="6678" vertical-scroll-proportion="-51.25926" vertical-offset="1208" max-vertical-offset="3222">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/invoice_generator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="0" selection-end="596" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="576">
+        <state line="18" column="27" selection-start="541" selection-end="541" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="576">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/visa_generator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.5010707" vertical-offset="0" max-vertical-offset="934">
+        <state line="40" column="1" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.77087796" vertical-offset="0" max-vertical-offset="934">
           <folding />
         </state>
       </provider>

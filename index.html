@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div class="cContent">
+    <div class="cContentRow">
+
+        <h3>Download Visa Letter</h3>
+
+        <div class="cMessage cMyProfile">
+            <h3>Please fill the following fields in order to download visa requesting letter.</h3>
+
+            <form name="wso2con14usvisaltr" action="actions/visa_generator.php" method="POST">
+                <table class="cVisa" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td><label>Full Name as per passport*</label></td>
+                        <td>
+                            <input name="fullName" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Passport Number*</label></td>
+                        <td>
+                            <input name="passportNumber" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Date of Issue*</label></td>
+                        <td>
+                            <table style="margin: 0px;" class="cDates" border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                <tr>
+                                    <td><input name="issuedDate_Day" class="cDetails cDate field_city" type="text"></td>
+                                    <td><label>dd</label></td>
+                                    <td><input name="issuedDate_Month" class="cDetails cDate field_city" type="text"></td>
+                                    <td><label>mm</label></td>
+                                    <td><input name="issuedDate_Year" class="cDetails cDate field_city" type="text"></td>
+                                    <td><label>yyyy</label></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Date of Expiry*</label></td>
+                        <td>
+                            <table style="margin: 0px;" class="cDates" border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                <tr>
+                                    <td><input name="expireDate_Day" class="cDetails cDate field_city" type="text"></td>
+                                    <td><label>dd</label></td>
+                                    <td><input name="expireDate_Month" class="cDetails cDate field_city" type="text"></td>
+                                    <td><label>mm</label></td>
+                                    <td><input name="expireDate_Year" class="cDetails cDate field_city" type="text"></td>
+                                    <td><label>yyyy</label></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Place of Issue*</label></td>
+                        <td>
+                            <input name="placeOfIssue" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Name of the organization*</label></td>
+                        <td>
+                            <input name="organizationName" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="cButtonPane">
+                    <input class="cSubBtn" value="download" name="download_visa" type="submit">
+                </div>
+                <p></p></form>
+            <p></p></div>
+
+        <h3>Download Invoice</h3>
+
+        <div class="cMessage cMyProfile">
+            <h3>Please fill the following fields in order to download your invoice.</h3>
+
+            <form name="wso2con14usinvoice" action="actions/invoice_generator.php" method="POST">
+                <table class="cVisa" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td><label>First Name*</label></td>
+                        <td>
+                            <input name="firstName" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name*</label></td>
+                        <td>
+                            <input name="lastName" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Email*</label></td>
+                        <td>
+                            <input name="email" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone*</label></td>
+                        <td>
+                            <input name="phone" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Company*</label></td>
+                        <td>
+                            <input name="company" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Job Title*</label></td>
+                        <td>
+                            <input name="jobTitle" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address Line 1*</label></td>
+                        <td>
+                            <input name="addrLineOne" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address Line 2*</label></td>
+                        <td>
+                            <input name="addrLineTwo" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Country*</label></td>
+                        <td>
+                            <input name="country" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>State</label></td>
+                        <td>
+                            <input name="state" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>City*</label></td>
+                        <td>
+                            <input name="city" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>PO no.</label></td>
+                        <td>
+                            <input name="pONo" class="cDetails field_city" type="text">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="cButtonPane">
+                    <input class="cSubBtn" value="download" name="download_invoice" type="submit">
+                </div>
+                <p></p></form>
+            <p></p></div>
+        <p></p></div>
+</div>
+</body>
+</html>

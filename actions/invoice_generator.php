@@ -1,26 +1,26 @@
 <?php
 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (isset($_POST['download_invoice']) && isset($_POST['download_invoice']) == "download") {
 
     // fetching post parameters
 
-    $fullName = $_POST["fullName"];
-    $passportNumber = $_POST["passportNumber"];
+    $firstName = $_POST["firstName"];
+    $lastName = $_POST["lastName"];
+    $email = $_POST["email"];
+    $phone = $_POST["phone"];
+    $company = $_POST["company"];
+    $jobTitle = $_POST["jobTitle"];
+    $addrLineOne = $_POST["addrLineOne"];
+    $addrLineTwo = $_POST["addrLineTwo"];
+    $country = $_POST["country"];
+    $state = $_POST["state"];
+    $city = $_POST["city"];
+    $pONo = $_POST["pONo"];
 
-    $issuedDate_Day = $_POST["issuedDate_Day"];
-    $issuedDate_Month = $_POST["issuedDate_Month"];
-    $issuedDate_Year = $_POST["issuedDate_Year"];
-
-    $expireDate_Day = $_POST["expireDate_Day"];
-    $expireDate_Month = $_POST["expireDate_Month"];
-    $expireDate_Year = $_POST["expireDate_Year"];
-
-    $placeOfIssue = $_POST["placeOfIssue"];
-    $organizationName = $_POST["organizationName"];
 
 
-    echo($fullName);
+    echo($firstName);
 
 
 }
