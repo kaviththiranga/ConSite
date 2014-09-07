@@ -22,6 +22,7 @@ if (isset($_POST['download_visa']) && isset($_POST['download_visa']) == "downloa
     $placeOfIssue = $_POST["placeOfIssue"];
     $organizationName = $_POST["organizationName"];
 
+    // Fetch template content
     $content = file_get_contents($visaLetterTemplate);
 
     // Replace placeholder values
